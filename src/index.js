@@ -1,5 +1,6 @@
 import { registerBlockType } from '@wordpress/blocks';
 import { useBlockProps } from '@wordpress/block-editor';
+import './style.css';
 
 registerBlockType('hello-world-block/hello-world', {
     title: 'Hello World',
