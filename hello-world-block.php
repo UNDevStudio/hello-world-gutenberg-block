@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Register the Hello World block.
  */
 function hello_world_block_register() {
-	register_block_type( __DIR__ . '/build' );
+	register_block_type( __DIR__ . '/build/block.json' );
 }
 
 add_action( 'init', 'hello_world_block_register' );
